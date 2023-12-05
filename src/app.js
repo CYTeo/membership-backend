@@ -3,6 +3,7 @@
 
 const express = require('express');
 require('dotenv').config();
+// import { connectDB } from './database';
 const connectDB = require('./database');
 
 // define a new instance express app
